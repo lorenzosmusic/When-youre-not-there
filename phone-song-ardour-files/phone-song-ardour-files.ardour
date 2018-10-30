@@ -113,7 +113,7 @@
     <Region name="bass-8.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2143260" length="411620" position="2328480" beat="88" sync-position="2044035" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="9048" type="audio" first-edit="nothing" source-0="8293" master-source-0="8293" channels="1"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="984" control="0" order="1"/>
+    <StripableAutomationControl stripable="4212" control="0" order="2"/>
   </Selection>
   <Locations>
     <Location id="254" name="session" start="0" end="13759199" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -603,10 +603,7 @@
       <Controllable name="solo-iso" id="4226" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="4228" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="bass" id="4240" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="bass/audio_in 1">
-          <Connection other="yoshimi:left"/>
-          <Connection other="yoshimi:right"/>
-        </Port>
+        <Port type="audio" name="bass/audio_in 1"/>
       </IO>
       <IO name="bass" id="4241" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="bass/audio_out 1">
@@ -3826,7 +3823,7 @@
       <Window name="PM-4242-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-4244-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-4245-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-984-9190" visible="0" x-off="653" y-off="0" x-size="806" y-size="322" custom-ui="1"/>
+      <Window name="P-984-9190" visible="0" x-off="405" y-off="0" x-size="806" y-size="322" custom-ui="1"/>
       <Window name="PM-9190-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
