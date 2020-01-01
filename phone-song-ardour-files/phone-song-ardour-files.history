@@ -490,4 +490,27 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
+  <UndoTransaction tv-sec="1577851264" tv-usec="913080" name="delete objects">
+    <StatefulDiffCommand obj-id="4418" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="499953"/>
+          <Remove id="500470"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="8064" left-frame="63806400" y-origin="652">
+        <Selection>
+          <Regions>
+            <Region id="500470"/>
+            <Region id="499953"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="8064" left-frame="63806400" y-origin="652">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
 </UndoHistory>
