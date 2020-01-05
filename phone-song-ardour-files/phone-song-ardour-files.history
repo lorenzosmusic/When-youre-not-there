@@ -1,146 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1577852616" tv-usec="155201" name="region drag">
-    <StatefulDiffCommand obj-id="538841" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="68194035" to="68187420"/>
-        <beat from="2577.25" to="2577"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="126" left-frame="68146100" y-origin="586">
-        <Selection>
-          <Regions>
-            <Region id="538841"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="126" left-frame="68146100" y-origin="586">
-        <Selection>
-          <Regions>
-            <Region id="538841"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1577852634" tv-usec="181037" name="region drag">
-    <StatefulDiffCommand obj-id="538904" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="68266800" to="68293260"/>
-        <beat from="2580" to="2581"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="538975" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="68531400" to="68557860"/>
-        <beat from="2590" to="2591"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="538920" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="68319720" to="68346180"/>
-        <beat from="2582" to="2583"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="538268" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="68372640" to="68399100"/>
-        <beat from="2584" to="2585"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="538306" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="68478480" to="68504940"/>
-        <beat from="2588" to="2589"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="538290" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="68425560" to="68452020"/>
-        <beat from="2586" to="2587"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="504" left-frame="67939263" y-origin="586">
-        <Selection>
-          <Regions>
-            <Region id="538904"/>
-            <Region id="538975"/>
-            <Region id="538920"/>
-            <Region id="538268"/>
-            <Region id="538306"/>
-            <Region id="538290"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="504" left-frame="67939263" y-origin="586">
-        <Selection>
-          <Regions>
-            <Region id="538904"/>
-            <Region id="538975"/>
-            <Region id="538920"/>
-            <Region id="538268"/>
-            <Region id="538306"/>
-            <Region id="538290"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1577852654" tv-usec="721727" name="delete objects">
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1008" left-frame="67631823" y-origin="586">
-        <Selection>
-          <Regions>
-            <Region id="538975"/>
-            <Region id="538920"/>
-            <Region id="538904"/>
-            <Region id="538888"/>
-            <Region id="538841"/>
-            <Region id="538268"/>
-            <Region id="538306"/>
-            <Region id="538290"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1008" left-frame="67631823" y-origin="586">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1577852799" tv-usec="538102" name="region drag">
-    <StatefulDiffCommand obj-id="426035" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="70906185" to="70902878"/>
-        <beat from="2679.75" to="2679.6250188964473"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="426051" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="70906185" to="70902878"/>
-        <beat from="2679.75" to="2679.625"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="63" left-frame="70867220" y-origin="390">
-        <Selection>
-          <Regions>
-            <Region id="426035"/>
-            <Region id="426051"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="63" left-frame="70867220" y-origin="390">
-        <Selection>
-          <Regions>
-            <Region id="426035"/>
-            <Region id="426051"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1577853073" tv-usec="927599" name="region copy">
     <StatefulDiffCommand obj-id="35475" type-name="ARDOUR::AudioPlaylist">
       <Changes>
@@ -419,6 +278,286 @@
       </SelectionMemento>
       <SelectionMemento mouse-mode="MouseObject" zoom="385" left-frame="70633875" y-origin="64">
         <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578201579" tv-usec="647655" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="254" name="session" start="0" end="82760265" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65806020" end="65806020" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="254" name="session" start="64423485" end="82760265" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65806020" end="65806020" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="70952" left-frame="0" y-origin="390">
+        <Selection>
+          <Marker id="254" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="70952" left-frame="0" y-origin="390">
+        <Selection>
+          <Marker id="254" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578201586" tv-usec="314273" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="254" name="session" start="64423485" end="82760265" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65806020" end="65806020" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="254" name="session" start="65806020" end="82760265" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65806020" end="65806020" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4434" left-frame="62052424" y-origin="390">
+        <Selection>
+          <Marker id="254" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4434" left-frame="62052424" y-origin="390">
+        <Selection>
+          <Marker id="254" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578201591" tv-usec="285711" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="254" name="session" start="65806020" end="82760265" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65806020" end="65806020" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="254" name="session" start="65806020" end="82760265" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65832480" end="65832480" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="554" left-frame="65421374" y-origin="390">
+        <Selection>
+          <Marker id="499920" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="554" left-frame="65421374" y-origin="390">
+        <Selection>
+          <Marker id="499920" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578201648" tv-usec="796360" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="254" name="session" start="65806020" end="82760265" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65832480" end="65832480" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="254" name="session" start="65806020" end="73330583" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65832480" end="65832480" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="35456" left-frame="45858255" y-origin="390">
+        <Selection>
+          <Marker id="254" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="35456" left-frame="45858255" y-origin="390">
+        <Selection>
+          <Marker id="254" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578201658" tv-usec="434528" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="254" name="session" start="65806020" end="73330583" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65832480" end="65832480" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="254" name="session" start="65806020" end="73353735" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65832480" end="65832480" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1108" left-frame="72448039" y-origin="390">
+        <Selection>
+          <Marker id="254" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1108" left-frame="72448039" y-origin="390">
+        <Selection>
+          <Marker id="254" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578201687" tv-usec="942024" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="254" name="session" start="65806020" end="73353735" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65832480" end="65832480" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="254" name="session" start="65806020" end="73360350" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65832480" end="65832480" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="277" left-frame="73127797" y-origin="128">
+        <Selection>
+          <Marker id="254" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="277" left-frame="73127797" y-origin="128">
+        <Selection>
+          <Marker id="254" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1578201692" tv-usec="453887" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="254" name="session" start="65806020" end="73360350" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65832480" end="65832480" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="254" name="session" start="65806020" end="73353735" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35357" name="diddle drumstick bass" start="28990238" end="28990238" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+        <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499920" name="Song start with intro" start="65832480" end="65832480" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="554" left-frame="72920047" y-origin="128">
+        <Selection>
+          <Marker id="254" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="554" left-frame="72920047" y-origin="128">
+        <Selection>
+          <Marker id="254" start="0"/>
+        </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>

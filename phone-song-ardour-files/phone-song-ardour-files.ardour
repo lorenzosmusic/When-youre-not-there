@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="phone-song-ardour-files" sample-rate="44100" end-is-free="1" id-counter="559439" name-counter="1" event-counter="217693" vca-counter="1">
+<Session version="3002" name="phone-song-ardour-files" sample-rate="44100" end-is-free="0" id-counter="578744" name-counter="1" event-counter="220987" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -3241,10 +3241,10 @@
     <CompoundAssociation copy="538822" original="538219"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="312900" control="0" order="9"/>
+    <StripableAutomationControl stripable="261378" control="0" order="8"/>
   </Selection>
   <Locations>
-    <Location id="254" name="session" start="0" end="82760265" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+    <Location id="254" name="session" start="65806020" end="73353735" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="35137" name="updownbass" start="21359835" end="21359835" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="35179" name="diddle bass" start="24544957" end="24544957" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
@@ -3252,7 +3252,7 @@
     <Location id="35399" name="bass diddle pick" start="31851225" end="31851225" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="127391" name="Loop" start="67314240" end="67737601" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
     <Location id="200143" name="new arramgment" start="67737600" end="67737600" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
-    <Location id="499920" name="Song start with intro" start="65806020" end="65806020" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="499920" name="Song start with intro" start="65832480" end="65832480" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="499929" name="Song start no intro" start="66467520" end="66467520" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
@@ -4638,7 +4638,7 @@
       <Diskstream flags="Recordable" playlist="bass.3" name="bass" id="4253" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="11474" name="guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="18" flags="AudioTrack,OrderSet" color="3851083263"/>
+      <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="3851083263"/>
       <Controllable name="solo" id="11482" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="11488" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="11490" flags="Toggle" value="0" solo-safe="0"/>
@@ -6242,7 +6242,7 @@ Ohh Choir in Choir and Voice preset bank</Comment>
       <Diskstream flags="Recordable" playlist="drums-alisis-dm5-space-kit-w-hats" name="drums-alisis-dm5-space-kit-w-hats" id="95381" speed="1" capture-alignment="Automatic" record-safe="0" channels="2"/>
     </Route>
     <Route id="148734" name="midi-bass" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="19" flags="AudioTrack,OrderSet" color="3840271103"/>
+      <PresentationInfo order="18" flags="AudioTrack,OrderSet" color="3840271103"/>
       <Controllable name="solo" id="148742" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="148748" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="148750" flags="Toggle" value="0" solo-safe="0"/>
@@ -7582,7 +7582,7 @@ Ohh Choir in Choir and Voice preset bank</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="243561" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="243562" flags="GainLike" value="0.37757295370101929"/>
+        <Controllable name="gaincontrol" id="243562" flags="GainLike" value="0.35573899745941162"/>
       </Processor>
       <Processor id="295563" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -7653,7 +7653,7 @@ Ohh Choir in Choir and Voice preset bank</Comment>
           <Port symbol="hp_mode" value="1"/>
           <Port symbol="hp_q" value="0.7070000171661377"/>
           <Port symbol="lp_active" value="1"/>
-          <Port symbol="lp_freq" value="9039.578125"/>
+          <Port symbol="lp_freq" value="4175.5634765625"/>
           <Port symbol="lp_mode" value="1"/>
           <Port symbol="lp_q" value="0.7070000171661377"/>
           <Port symbol="ls_active" value="0"/>
@@ -7693,7 +7693,7 @@ Ohh Choir in Choir and Voice preset bank</Comment>
         <Controllable name="HP Mode" id="295575" flags="" value="1" parameter="17" symbol="hp_mode"/>
         <Controllable name="HP Q" id="295577" flags="" value="0.7070000171661377" parameter="18" symbol="hp_q"/>
         <Controllable name="LP Active" id="295579" flags="" value="1" parameter="19" symbol="lp_active"/>
-        <Controllable name="LP Freq" id="295581" flags="" value="9039.578125" parameter="20" symbol="lp_freq"/>
+        <Controllable name="LP Freq" id="295581" flags="" value="4175.5634765625" parameter="20" symbol="lp_freq"/>
         <Controllable name="LP Mode" id="295583" flags="" value="1" parameter="21" symbol="lp_mode"/>
         <Controllable name="LP Q" id="295585" flags="" value="0.7070000171661377" parameter="22" symbol="lp_q"/>
         <Controllable name="LS Active" id="295587" flags="" value="0" parameter="23" symbol="ls_active"/>
@@ -7810,7 +7810,7 @@ Ohh Choir in Choir and Voice preset bank</Comment>
       <Diskstream flags="Recordable" playlist="rob guiatr solo.1" name="rob guiatr solo" id="243599" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="243852" name="rob guiatr solo 1" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="2096756223"/>
+      <PresentationInfo order="19" flags="AudioTrack,OrderSet" color="2096756223"/>
       <Controllable name="solo" id="243819" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="243885" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="243886" flags="Toggle" value="0" solo-safe="0"/>
@@ -8503,7 +8503,7 @@ Ohh Choir in Choir and Voice preset bank</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="261381" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="261382" flags="GainLike" value="0.99999994039535522"/>
+        <Controllable name="gaincontrol" id="261382" flags="GainLike" value="0.50280815362930298"/>
       </Processor>
       <Processor id="537274" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -8870,7 +8870,7 @@ Ohh Choir in Choir and Voice preset bank</Comment>
       <Comment>**niote**
 there are more tracke</Comment>
       <Pannable>
-        <Controllable name="pan-azimuth" id="312919" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="312919" flags="" value="1"/>
         <Controllable name="pan-width" id="312923" flags="" value="0"/>
         <Controllable name="pan-elevation" id="312921" flags="" value="0"/>
         <Controllable name="pan-frontback" id="312925" flags="" value="0"/>
@@ -9029,7 +9029,7 @@ there are more tracke</Comment>
       <Processor id="312933" name="eric guitar" active="1" user-latency="0" own-input="1" own-output="0" output="eric guitar" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="312919" flags="" value="0.5"/>
+          <Controllable name="pan-azimuth" id="312919" flags="" value="1"/>
           <Controllable name="pan-width" id="312923" flags="" value="0"/>
           <Controllable name="pan-elevation" id="312921" flags="" value="0"/>
           <Controllable name="pan-frontback" id="312925" flags="" value="0"/>
@@ -22454,7 +22454,6 @@ there are more tracke</Comment>
     <Protocol name="Generic MIDI" active="0"/>
   </ControlProtocols>
   <Extra>
-    <ExportRevision revision="2"/>
     <SelectionExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="selection"/>
@@ -22479,6 +22478,31 @@ there are more tracke</Comment>
         <Field name="date" enabled="1" value="D_BEShortY"/>
       </ExportFilename>
     </SelectionExportProfile>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="254"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1">
+          <Port name="Master/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Master/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
+      <ExportFilename>
+        <Folder relative="1" path="/export"/>
+        <Field name="label" enabled="1" value="when-youre-not-there-mix"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="0"/>
+        <Field name="revision" enabled="1"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_BEShortY"/>
+      </ExportFilename>
+    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="322" x-size="753" y-size="372"/>
@@ -22487,7 +22511,7 @@ there are more tracke</Comment>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="671" y-size="510"/>
       <Window name="add-video" visible="0" x-off="0" y-off="199" x-size="800" y-size="462"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="649" y-off="321" x-size="621" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="543" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="844" y-off="389" x-size="342" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -22537,11 +22561,13 @@ there are more tracke</Comment>
       <Window name="P-312900-312931" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-312900-312930" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-312900-347407" visible="0" x-off="453" y-off="592" x-size="834" y-size="388" custom-ui="1"/>
+      <Window name="P-312900-559236" visible="0" x-off="873" y-off="61" x-size="806" y-size="334" custom-ui="1"/>
       <Window name="P-312900-312932" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-312900-312933" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-312931-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-312930-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-347407-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-559236-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-312932-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-312933-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-172-203" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -22834,8 +22860,6 @@ there are more tracke</Comment>
       <Window name="PM-277838-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-84804-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-84805-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-312900-559236" visible="0" x-off="873" y-off="61" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="PM-559236-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
         <Object id="automation 58" height="64" visible="0"/>
