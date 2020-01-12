@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="phone-song-ardour-files" sample-rate="44100" end-is-free="0" id-counter="598109" name-counter="1" event-counter="226962" vca-counter="1">
+<Session version="3002" name="phone-song-ardour-files" sample-rate="44100" end-is-free="0" id-counter="636710" name-counter="1" event-counter="228636" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -3241,7 +3241,7 @@
     <CompoundAssociation copy="538822" original="538219"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="243179" control="0" order="9"/>
+    <StripableAutomationControl stripable="82926" control="0" order="0"/>
   </Selection>
   <Locations>
     <Location id="254" name="session" start="65806020" end="73353735" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -4994,7 +4994,7 @@ Tom</Comment>
       <Diskstream flags="Recordable" playlist="guitar.2" name="guitar" id="11515" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="11601" name="key bass" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="23" flags="AudioTrack,OrderSet" color="3687179775"/>
+      <PresentationInfo order="24" flags="AudioTrack,OrderSet" color="3687179775"/>
       <Controllable name="solo" id="11609" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="11615" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="11617" flags="Toggle" value="0" solo-safe="0"/>
@@ -5214,7 +5214,7 @@ Tom</Comment>
       <Diskstream flags="Recordable" playlist="key bass.2" name="key bass" id="11642" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="11761" name="key guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="21" flags="AudioTrack,OrderSet" color="2012119039"/>
+      <PresentationInfo order="22" flags="AudioTrack,OrderSet" color="2012119039"/>
       <Controllable name="solo" id="11769" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="11775" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="11777" flags="Toggle" value="0" solo-safe="0"/>
@@ -5293,7 +5293,7 @@ Tom</Comment>
       <Diskstream flags="Recordable" playlist="key guitar.1" name="key guitar" id="11802" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="23867" name="guit tom" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="20" flags="AudioTrack,OrderSet" color="3211978239"/>
+      <PresentationInfo order="21" flags="AudioTrack,OrderSet" color="3211978239"/>
       <Controllable name="solo" id="23875" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="23881" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="23883" flags="Toggle" value="0" solo-safe="0"/>
@@ -5642,7 +5642,7 @@ Tom</Comment>
       <Diskstream flags="Recordable" playlist="guit tom.1" name="guit tom" id="23908" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="71359" name="MIDI drums" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1">
-      <PresentationInfo order="25" flags="MidiTrack,Hidden,OrderSet" color="3185952767"/>
+      <PresentationInfo order="26" flags="MidiTrack,Hidden,OrderSet" color="3185952767"/>
       <Controllable name="solo" id="71367" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="71373" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="71375" flags="Toggle" value="0" solo-safe="0"/>
@@ -5802,7 +5802,7 @@ Tom</Comment>
       <Diskstream flags="Recordable" playlist="MIDI drums.1" name="MIDI drums" id="71400" speed="1" capture-alignment="Automatic" record-safe="0"/>
     </Route>
     <Route id="82926" name="MIDI keys" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1">
-      <PresentationInfo order="26" flags="MidiTrack,OrderSet" color="3722823423"/>
+      <PresentationInfo order="19" flags="MidiTrack,OrderSet" color="3722823423"/>
       <Controllable name="solo" id="82934" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="82940" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="82942" flags="Toggle" value="0" solo-safe="0"/>
@@ -6462,7 +6462,7 @@ Ohh Choir in Choir and Voice preset bank</Comment>
       <Diskstream flags="Recordable" playlist="midi-bass.1" name="midi-bass" id="148775" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="170603" name="rob drums" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="22" flags="AudioTrack,OrderSet" color="3853370111"/>
+      <PresentationInfo order="23" flags="AudioTrack,OrderSet" color="3853370111"/>
       <Controllable name="solo" id="170611" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="170617" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="170619" flags="Toggle" value="0" solo-safe="0"/>
@@ -6976,7 +6976,7 @@ Ohh Choir in Choir and Voice preset bank</Comment>
       <Diskstream flags="Recordable" playlist="drums 2.1" name="drums 2" id="242902" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="243131" name="drums drums  1" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="24" flags="AudioTrack,OrderSet" color="3603555839"/>
+      <PresentationInfo order="25" flags="AudioTrack,OrderSet" color="3603555839"/>
       <Controllable name="solo" id="243139" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="243145" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="243147" flags="Toggle" value="0" solo-safe="0"/>
@@ -7810,7 +7810,7 @@ Ohh Choir in Choir and Voice preset bank</Comment>
       <Diskstream flags="Recordable" playlist="rob guiatr solo.1" name="rob guiatr solo" id="243599" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="243852" name="rob guiatr solo 1" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="19" flags="AudioTrack,OrderSet" color="2096756223"/>
+      <PresentationInfo order="20" flags="AudioTrack,OrderSet" color="2096756223"/>
       <Controllable name="solo" id="243819" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="243885" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="243886" flags="Toggle" value="0" solo-safe="0"/>
@@ -22574,7 +22574,7 @@ there are more tracke</Comment>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="671" y-size="510"/>
       <Window name="add-video" visible="0" x-off="0" y-off="199" x-size="800" y-size="462"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="543" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="256" y-off="404" x-size="584" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="844" y-off="389" x-size="342" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -22635,6 +22635,7 @@ there are more tracke</Comment>
       <Window name="PM-205-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-259952-259983" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-259952-259982" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-259952-598076" visible="0" x-off="81" y-off="30" x-size="979" y-size="387" custom-ui="1"/>
       <Window name="P-259952-277334" visible="0" x-off="778" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
       <Window name="P-259952-277417" visible="0" x-off="786" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
       <Window name="P-259952-277444" visible="0" x-off="808" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
@@ -22643,6 +22644,7 @@ there are more tracke</Comment>
       <Window name="P-259952-259985" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-259983-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-259982-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-598076-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-277334-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-277417-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-277444-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -22923,8 +22925,6 @@ there are more tracke</Comment>
       <Window name="PM-277838-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-84804-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-84805-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-259952-598076" visible="0" x-off="81" y-off="30" x-size="979" y-size="387" custom-ui="1"/>
-      <Window name="PM-598076-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
         <Object id="automation 58" height="64" visible="0"/>

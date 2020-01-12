@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="phone-song-ardour-files" sample-rate="44100" end-is-free="0" id-counter="598109" name-counter="1" event-counter="226962" vca-counter="1">
+<Session version="3002" name="phone-song-ardour-files" sample-rate="44100" end-is-free="0" id-counter="617409" name-counter="1" event-counter="227602" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -3240,9 +3240,7 @@
     <CompoundAssociation copy="538813" original="538178"/>
     <CompoundAssociation copy="538822" original="538219"/>
   </CompoundAssociations>
-  <Selection>
-    <StripableAutomationControl stripable="243179" control="0" order="9"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="254" name="session" start="65806020" end="73353735" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="34992" name="new bass" start="15657705" end="15657705" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
@@ -22635,6 +22633,7 @@ there are more tracke</Comment>
       <Window name="PM-205-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-259952-259983" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-259952-259982" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-259952-598076" visible="0" x-off="81" y-off="30" x-size="979" y-size="387" custom-ui="1"/>
       <Window name="P-259952-277334" visible="0" x-off="778" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
       <Window name="P-259952-277417" visible="0" x-off="786" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
       <Window name="P-259952-277444" visible="0" x-off="808" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
@@ -22643,6 +22642,7 @@ there are more tracke</Comment>
       <Window name="P-259952-259985" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-259983-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-259982-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-598076-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-277334-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-277417-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-277444-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -22711,7 +22711,7 @@ there are more tracke</Comment>
       <Window name="PM-95373-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-425242-425256" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-425242-425259" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-425242-425382" visible="0" x-off="0" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
+      <Window name="P-425242-425382" visible="0" x-off="137" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
       <Window name="P-425242-425656" visible="0" x-off="227" y-off="0" x-size="838" y-size="221" custom-ui="1"/>
       <Window name="P-425242-425458" visible="0" x-off="754" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
       <Window name="P-425242-425470" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -22923,8 +22923,6 @@ there are more tracke</Comment>
       <Window name="PM-277838-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-84804-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-84805-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-259952-598076" visible="0" x-off="0" y-off="693" x-size="979" y-size="387" custom-ui="1"/>
-      <Window name="PM-598076-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
         <Object id="automation 58" height="64" visible="0"/>
